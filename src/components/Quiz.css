@@ -1,0 +1,83 @@
+.box {
+
+    width: 400px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-left: 33.3%;
+
+}
+
+.image {
+    background-color: #AF9CF3;
+    width: 400px;
+    height: 80px;
+}
+
+.quizSection {
+    width: 400px;
+    height: 480px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    background-color: #fff;
+    margin-top: -5px;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.quizInfo {
+    height: 2%;
+    width: 50px;
+    /* position: absolute; */
+    margin-left: 330px;
+    font-size: 12px;
+    /* border: 1px solid black; */
+}
+
+.scoreBoard {
+    top: 30%;
+}
+
+
+
+
+
+
+
+
+
+.nextButton {
+    width: 670px;
+
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: #FF3B3F;
+
+
+
+}
+
+.nextComponent {
+    width: 316px;
+
+    display: inline-flex;
+    padding-right: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 203.828px;
+}
+
+.nextText {
+    color: #FFF;
+    font-size: 36px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.nextButton:hover {
+    background-color: hsl(359, 93%, 65%);
+    cursor: pointer;
+}

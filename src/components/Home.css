@@ -1,0 +1,86 @@
+.start {
+    width: 400px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-left: 33.3%;
+}
+
+.home {
+    width: 450px;
+    height: 550px;
+    background: linear-gradient(180deg, rgba(175, 156, 243, 0.00) 5.73%, #AF9CF3 100%);
+    background-blend-mode: multiply;
+    display: flex;
+    position: relative;
+
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translate(94%, -50%)
+}
+
+.circleText {
+
+    width: 115px;
+    height: 64px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 42%;
+    left: -38px;
+    transform: translate(50%, -50%);
+    text-align: center;
+    color: #FF3B3C;
+    text-align: center;
+    font-size: 40px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 90px;
+}
+
+.startButton {
+    width: 190px;
+    height: 50px;
+    flex-shrink: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 30.3%;
+}
+
+.btn {
+    width: 180px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: #FF3B3F;
+    color: #FFF;
+    font-size: 20px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 900;
+
+
+
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.logo {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+
+.logoImage {
+    height: 30px;
+    width: 100px;
+}
